@@ -10,6 +10,7 @@
 		8E04681623F4850F0046E044 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E04681523F4850F0046E044 /* MenuViewController.swift */; };
 		8E04681823F485990046E044 /* gamequestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E04681723F485990046E044 /* gamequestions.plist */; };
 		8E04681A23F487E80046E044 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E04681923F487E80046E044 /* ScoreViewController.swift */; };
+		8E14FCDB23FC543300CE2248 /* ross-icons in Resources */ = {isa = PBXBuildFile; fileRef = 8E14FCDA23FC543300CE2248 /* ross-icons */; };
 		8E79D92A23EB58EF00A0DB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E79D92923EB58EF00A0DB00 /* AppDelegate.swift */; };
 		8E79D92C23EB58EF00A0DB00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E79D92B23EB58EF00A0DB00 /* SceneDelegate.swift */; };
 		8E79D92E23EB58EF00A0DB00 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E79D92D23EB58EF00A0DB00 /* GameViewController.swift */; };
@@ -45,7 +46,8 @@
 		8E04681523F4850F0046E044 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8E04681723F485990046E044 /* gamequestions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gamequestions.plist; sourceTree = "<group>"; };
 		8E04681923F487E80046E044 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		8E79D92623EB58EF00A0DB00 /* emojiquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojiquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E14FCDA23FC543300CE2248 /* ross-icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ross-icons"; sourceTree = "<group>"; };
+		8E79D92623EB58EF00A0DB00 /* Emoji Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E79D92923EB58EF00A0DB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E79D92B23EB58EF00A0DB00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E79D92D23EB58EF00A0DB00 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +105,7 @@
 		8E79D92723EB58EF00A0DB00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E79D92623EB58EF00A0DB00 /* emojiquiz.app */,
+				8E79D92623EB58EF00A0DB00 /* Emoji Quiz.app */,
 				8E79D93C23EB58F100A0DB00 /* emojiquizTests.xctest */,
 				8E79D94723EB58F100A0DB00 /* emojiquizUITests.xctest */,
 			);
@@ -123,6 +125,7 @@
 				8E7DB7E423F5203200982ED4 /* no.mp3 */,
 				8E04681523F4850F0046E044 /* MenuViewController.swift */,
 				8E79D93223EB58F100A0DB00 /* Assets.xcassets */,
+				8E14FCDA23FC543300CE2248 /* ross-icons */,
 				8E7DB7E623F536F500982ED4 /* bob-ross.jpg */,
 				8E79D93423EB58F100A0DB00 /* LaunchScreen.storyboard */,
 				8E79D93723EB58F100A0DB00 /* Info.plist */,
@@ -166,7 +169,7 @@
 			);
 			name = emojiquiz;
 			productName = emojiquiz;
-			productReference = 8E79D92623EB58EF00A0DB00 /* emojiquiz.app */;
+			productReference = 8E79D92623EB58EF00A0DB00 /* Emoji Quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8E79D93B23EB58F100A0DB00 /* emojiquizTests */ = {
@@ -255,6 +258,7 @@
 			files = (
 				8E7DB7E523F5203200982ED4 /* no.mp3 in Resources */,
 				8E7DB7E323F51E5A00982ED4 /* ding.wav in Resources */,
+				8E14FCDB23FC543300CE2248 /* ross-icons in Resources */,
 				8E7DB7E723F536F500982ED4 /* bob-ross.jpg in Resources */,
 				8E04681823F485990046E044 /* gamequestions.plist in Resources */,
 				8E921D2F23EF5EE300D148D3 /* moviequestions.plist in Resources */,
@@ -469,9 +473,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jakerose.emojiquiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Emoji Quiz";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -486,9 +490,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jakerose.emojiquiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Emoji Quiz";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
