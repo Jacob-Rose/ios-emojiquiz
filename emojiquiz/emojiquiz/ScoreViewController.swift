@@ -43,7 +43,7 @@ class ScoreViewController: UIViewController {
         
         if ScoreViewController.positions.count > 1
         {
-            secondPlaceLabel.text = ScoreViewController.positions[0].name + " | " + String(ScoreViewController.positions[0].score);
+            secondPlaceLabel.text = ScoreViewController.positions[1].name + " | " + String(ScoreViewController.positions[1].score);
         }
         else
         {
@@ -52,7 +52,7 @@ class ScoreViewController: UIViewController {
         
         if ScoreViewController.positions.count > 2
         {
-            thirdPlaceLabel.text = ScoreViewController.positions[0].name + " | " + String(ScoreViewController.positions[0].score);
+            thirdPlaceLabel.text = ScoreViewController.positions[2].name + " | " + String(ScoreViewController.positions[2].score);
         }
         else
         {

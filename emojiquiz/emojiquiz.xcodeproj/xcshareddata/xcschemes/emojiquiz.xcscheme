@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E79D92523EB58EF00A0DB00"
-               BuildableName = "emojiquiz.app"
+               BuildableName = "Emoji Quiz.app"
                BlueprintName = "emojiquiz"
                ReferencedContainer = "container:emojiquiz.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E79D92523EB58EF00A0DB00"
-            BuildableName = "emojiquiz.app"
+            BuildableName = "Emoji Quiz.app"
             BlueprintName = "emojiquiz"
             ReferencedContainer = "container:emojiquiz.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E79D92523EB58EF00A0DB00"
-            BuildableName = "emojiquiz.app"
+            BuildableName = "Emoji Quiz.app"
             BlueprintName = "emojiquiz"
             ReferencedContainer = "container:emojiquiz.xcodeproj">
          </BuildableReference>
